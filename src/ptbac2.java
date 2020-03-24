@@ -30,7 +30,7 @@ public class ptbac2 {
         double b = sc.nextDouble();
         System.out.print("nhập c: ");
         double c = sc.nextDouble();
-        System.out.printf("phương trình vừa nhập là : %-3.1f^2-4*(%-3.1f+%-3.1f=0)\n",a,b,c);
+        System.out.printf("phương trình vừa nhập là : %-3.1fX^2-*%-3.1fX+%-3.1f=0\n",a,b,c);
         ptbac2 ptbac2 = new ptbac2(a,b,c);
         if (a==0){
             System.out.print("k phải PT bậc 2!");
